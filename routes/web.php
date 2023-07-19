@@ -23,7 +23,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('autenticador')->group(function() {
 
-    //Route::get('/', [HomeController::class, 'index'])->middleware('autenticador')->name('home.index');
     Route::get('/', [HomeController::class, 'index'])->name('home.index');
 
 });
