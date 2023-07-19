@@ -21,16 +21,20 @@ Breve descrição do projeto e suas funcionalidades principais. Explique o prop�
 
 ## Instalação
 
-1. Certifique-se de ter os requisitos listados no arquivo `requeriments.txt` ou `composer.json`.
-2. Clone este repositório em sua máquina local usando `git clone https://github.com/seu-usuario/seu-projeto.git`.
-3. Acesse o diretório do projeto via terminal: `cd seu-projeto`.
+1. Certifique-se de ter os requisitos listados no arquivo `composer.json`.
+2. Clone este repositório em sua máquina local usando `git clone https://github.com/thallys97/sistema-registro-usuarios.
+3. Acesse o diretório do projeto via terminal: `cd <caminho do projeto>`.
 4. Execute o comando `composer install` para instalar as dependências do Laravel.
-5. Crie um arquivo `.env` na raiz do projeto (você pode se basear no arquivo `.env.example` disponibilizado).
-6. Gere a chave da aplicação Laravel executando `php artisan key:generate`.
-7. Configure o acesso ao banco de dados no arquivo `.env`.
-8. Execute as migrações para criar as tabelas do banco de dados: `php artisan migrate`.
-9. Execute o servidor de desenvolvimento: `php artisan serve`.
-10. Acesse a aplicação em `http://localhost:8000`.
+5. Execute o comando `npm install` para instalar as dependências que estão no package.json
+6. Crie um arquivo `.env` na raiz do projeto (você pode se basear no arquivo `.env.example` disponibilizado).
+7. Gere a chave da aplicação Laravel executando `php artisan key:generate`.
+8. Configure o acesso ao banco de dados no arquivo `.env`.
+9. exemplo: no arquivo `.env` comente todas as linhas que tem o prefixo `DB_` exceto a entrada `DB_CONNECTION`
+10. continuação: coloque o valor de `DB_CONNECTION` como `sqlite`
+11. continuação: crie o arquivo `database.sqlite` (esse vai ser o banco de dados) na pasta `database` 
+12. Execute as migrações para criar as tabelas do banco de dados: `php artisan migrate`.
+13. Execute o servidor de desenvolvimento: `php artisan serve`.
+14. Acesse a aplicação em `http://localhost:8000`.
 
 ## Configuração
 
@@ -56,9 +60,9 @@ Agradecemos sua contribuição para o projeto. Para contribuir, siga os passos a
 
 ## Licença
 
-Indique a licença do projeto, como por exemplo a MIT License, Apache License 2.0, etc. Certifique-se de incluir o arquivo de licença correspondente no repositório.
+este projeto usa a MIT License 
 
 ## Contato
 
-Fornecer informações de contato para os usuários que queiram entrar em contato com você em relação ao projeto. Pode ser um email ou um link para o seu perfil no GitHub, por exemplo.
+Email: thallysbandeira97@gmail.com
 
