@@ -16,7 +16,6 @@ class UsersController
     }
 
 
-    //nota da aula 4.6 do curso 3: aqui nós deveríamos ter a validação, criar umform request separado, caso queira pode fazer um $request->valid direto
     public function store(RegisterFormRequest $request) 
     {
 
