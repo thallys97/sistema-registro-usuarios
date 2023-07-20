@@ -1,23 +1,8 @@
-# Nome do Projeto
-
-Descrição curta do projeto em uma ou duas frases.
-
-## Sumário
-
-- [Nome do Projeto](#nome-do-projeto)
-  - [Sumário](#sumário)
-  - [Descrição](#descrição)
-  - [Instalação](#instalação)
-  - [Configuração](#configuração)
-  - [Uso](#uso)
-  - [Recursos](#recursos)
-  - [Contribuição](#contribuição)
-  - [Licença](#licença)
-  - [Contato](#contato)
+# Sistema simples de registro de usuários
 
 ## Descrição
 
-Breve descrição do projeto e suas funcionalidades principais. Explique o propósito do projeto, o problema que ele resolve e sua relevância.
+O projeto "Sistema de Registro de Usuários" é uma aplicação web desenvolvida em Laravel que permite aos usuários se cadastrarem na plataforma. O objetivo principal do sistema é fornecer uma forma rápida e segura para que novos usuários possam criar contas e acessar a aplicação.
 
 ## Instalação
 
@@ -36,17 +21,26 @@ Breve descrição do projeto e suas funcionalidades principais. Explique o prop�
 13. Execute o servidor de desenvolvimento: `php artisan serve`.
 14. Acesse a aplicação em `http://localhost:8000`.
 
-## Configuração
-
-Explique aqui como configurar o projeto, caso haja outras configurações além da instalação mencionada acima.
 
 ## Uso
 
-Demonstre como usar o projeto, com exemplos e instruções passo a passo para que os usuários possam tirar o máximo proveito do mesmo.
+planejo colocar gifs para mostrar a minha aplicação
 
 ## Recursos
 
-Liste aqui os recursos principais do projeto, bem como suas funcionalidades.
+Registro de Usuários: Os usuários podem criar contas fornecendo informações básicas, como nome, email e senha.
+
+Autenticação: Após o registro, os usuários podem fazer login usando suas credenciais para acessar o sistema.
+
+Segurança: O sistema utiliza medidas de segurança para proteger as senhas dos usuários, como por exemplo, armazenar a senha em forma de hash no banco de dados, garantindo o armazenamento seguro das informações.
+
+algumas regras de validação aplicadas nos campos do fomulário de registro de usuários:
+
+1. Os campos de "nome", "email" e "senha" são obrigatórios.
+2. Os campos de "nome", "email" e "senha" precisam de pelo menos três caracteres cada.
+3. Os campos de "nome" e "email" precisam ser únicos, ou seja, tem quer ser um valor diferente do que já foi armazenado no banco de dados.
+4. O valor do campo de "senha" precisa ser confirmado de novo no campo de confirmação de senha
+
 
 ## Contribuição
 
@@ -64,5 +58,5 @@ este projeto usa a MIT License
 
 ## Contato
 
-Email: thallysbandeira97@gmail.com
+Email: thallysroque@gmail.com
 
