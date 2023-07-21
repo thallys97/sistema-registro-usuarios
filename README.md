@@ -30,6 +30,20 @@ clique na imagem abaixo para ver um vídeo mostrando como faz o registro de um u
 [![Clique para assistir ao vídeo](https://img.youtube.com/vi/aaOZ2cPOppU/0.jpg)](https://www.youtube.com/watch?v=aaOZ2cPOppU)
 
 
+
+clique na imagem abaixo para ver um vídeo mostrando como faz o login de um usuário no meu sistema: 
+
+[![Clique para assistir ao vídeo](https://img.youtube.com/vi/iXS4fo41uT8/0.jpg)](https://www.youtube.com/watch?v=iXS4fo41uT8)
+
+
+
+
+clique na imagem abaixo para ver um vídeo mostrando algumas validações que existem nos meus formulários de login e registro:
+
+[![Clique para assistir ao vídeo](https://img.youtube.com/vi/D1VAOoQwNeM/0.jpg)](https://www.youtube.com/watch?v=D1VAOoQwNeM)
+
+
+
 ## Recursos
 
 Registro de Usuários: Os usuários podem criar contas fornecendo informações básicas, como nome, email e senha.
