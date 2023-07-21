@@ -24,7 +24,11 @@ O projeto "Sistema de Registro de Usuários" é uma aplicação web desenvolvida
 
 ## Uso
 
-planejo colocar gifs para mostrar a minha aplicação
+
+fazendo o registro de um usuário no meu sistema: 
+
+[![Clique para assistir ao vídeo](https://img.youtube.com/vi/aaOZ2cPOppU/0.jpg)](https://www.youtube.com/watch?v=aaOZ2cPOppU)
+
 
 ## Recursos
 
